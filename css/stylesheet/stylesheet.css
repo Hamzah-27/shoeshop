@@ -1,12 +1,12 @@
-.body {
+/* body {
   max-width: 100%;
   overflow: hidden;
   font-family: "roboto";
-}
+} */
 
 /* navbar */
 .navbar {
-  height: 101px;
+  /* height: 101px; */
   background: #007bff;
 }
 
@@ -16,7 +16,8 @@
 }
 
 .hero {
-  margin-top: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 #buy {
@@ -30,19 +31,26 @@
 
 /* Hero */
 .hero-title {
-  font-family: "Times New Roman";
-  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 53px;
   font-weight: bold;
 }
 
 /* Product */
-.product {
+#products {
   padding-bottom: 80px;
 }
 
 .card,
 .card-img-top {
   border-radius: 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.08);
 }
 
 /* history */
@@ -55,15 +63,18 @@
 }
 
 /* testimonial */
-.testimonial {
+#testimonial {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
+section {
+  padding: 4rem;
+}
+
 /* footer */
 footer {
-  padding-bottom: 1px;
-  padding-top: 20px;
+  padding: 0.5rem;
 }
 
 /* Responsive */
@@ -72,13 +83,16 @@ footer {
     margin-left: 10px;
   }
 
+  nav {
+    overflow-x: hidden;
+  }
+
   #product {
     margin-left: -15px;
     margin-right: 0px;
   }
-
   .gmaps {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 }
