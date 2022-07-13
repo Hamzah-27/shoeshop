@@ -1,0 +1,124 @@
+<<<<<<< HEAD
+body {
+  /* overflow: hidden; */
+=======
+/* body {
+  max-width: 100%;
+  overflow: hidden;
+>>>>>>> 4d68343e1d24884f3da587a8eb6eae50c74b8c74
+  font-family: "roboto";
+} */
+
+/* navbar */
+.navbar {
+  /* height: 101px; */
+  background: #007bff;
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: "roboto";
+}
+
+.hero {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+#buy {
+  color: #007bff;
+}
+
+#buy:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/* Hero */
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 53px;
+  font-weight: bold;
+}
+
+/* Product */
+<<<<<<< HEAD
+.card,.card-img-top {
+  border-radius: 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+=======
+#products {
+  padding-bottom: 80px;
+}
+
+.card,
+.card-img-top {
+  border-radius: 20px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+>>>>>>> 4d68343e1d24884f3da587a8eb6eae50c74b8c74
+.card:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.08);
+}
+
+/* history */
+.history {
+  margin-top: 10px;
+}
+
+.carousel {
+  margin-bottom: 5%;
+}
+
+/* testimonial */
+#testimonial {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+<<<<<<< HEAD
+.gmaps{
+  float: none;
+  max-width: 100%;
+  height: 410px;
+=======
+section {
+  padding: 4rem;
+>>>>>>> 4d68343e1d24884f3da587a8eb6eae50c74b8c74
+}
+
+/* footer */
+footer {
+  padding: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .card-body {
+    margin-left: 10px;
+  }
+
+  nav {
+    overflow-x: hidden;
+  }
+
+  #product {
+    margin-left: -15px;
+    margin-right: 0px;
+  }
+<<<<<<< HEAD
+
+
+=======
+  .gmaps {
+    width: 300px;
+    height: 300px;
+  }
+>>>>>>> 4d68343e1d24884f3da587a8eb6eae50c74b8c74
+}
